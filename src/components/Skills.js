@@ -36,51 +36,51 @@ export const Skills = () => {
                         <p>Main focus on Security and Web Development with a dash of Software Engineering.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                // <img src={meter1} alt="Image" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                // <img src={meter3} alt="Image" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                //<img src={meter1} alt="Image" />
                                 <h5>Bash</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                //<img src={meter1} alt="Image" />
                                 <h5>Networking</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                //<img src={meter1} alt="Image" />
                                 <h5>Linux Administration</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                //<img src={meter2} alt="Image" />
                                 <h5>SQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                //<img src={meter2} alt="Image" />
                                 <h5>NoSQL/Mongoose</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                //<img src={meter2} alt="Image" />
                                 <h5>HTML/CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                //<img src={meter2} alt="Image" />
                                 <h5>XML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                //<img src={meter2} alt="Image" />
                                 <h5>Django</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                //<img src={meter3} alt="Image" />
                                 <h5>ExpressJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                //<img src={meter3} alt="Image" />
                                 <h5>Git</h5>
                             </div>
                         </Carousel>
