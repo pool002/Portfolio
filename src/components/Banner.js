@@ -11,7 +11,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [ "System Administrator", "Web Developer", "Hacker." ];
-  const period = 5000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -55,7 +55,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hey! I'm Rahul, and I'm a `} <span className="txt-rotate" dataPeriod="5000" data-rotate='[ "System Administrator", "Web Developer", "Hacker" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hey! I'm Rahul, and I'm a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "System Administrator", "Web Developer", "Hacker" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm an Information Security Analyst, Computer Science Graduate, self-taught Full Stack Web Developer and a Cyber Security Enthusiast.</p>
               </div>}
             </TrackVisibility>
