@@ -15,6 +15,44 @@
 	font-weight: 400;
 }
 
+/*************GPT Responsive***********/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 200px; /* Grow, shrink, and base width */
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .header {
+    font-size: 18px;
+  }
+}
+
+/* Styles for tablets and up */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .header {
+    font-size: 24px;
+  }
+}
+
+/*************GPT Responsive***********/
+
+
 /************ Default Css ************/
 * {
   margin: 0;
