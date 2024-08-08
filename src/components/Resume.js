@@ -35,7 +35,7 @@ function OffCanvasExample({ name, ...props }) {
           Get my resume for my contact details
           <br></br><br></br>
           {/* Add a button to view and download resume */}
-          <Button variant="primary" onClick={downloadResume}>Download</Button>{' '}
+          <Button variant="primary" onClick={downloadResume}>View/Download</Button>{' '}
           <br></br>
         </Offcanvas.Body>
       </Offcanvas>
