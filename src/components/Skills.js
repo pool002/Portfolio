@@ -36,7 +36,7 @@ export const Skills = () => {
                         <p>Main focus on Security and Web Development with a dash of Software Engineering.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                // <img src={meter1} alt="Image" />
+                                {/* <img src={meter1} alt="Image" /> */}
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
